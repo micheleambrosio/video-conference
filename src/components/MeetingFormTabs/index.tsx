@@ -12,7 +12,7 @@ export default function MeetingFormTabs() {
       </h1>
       <Tabs.Root
         defaultValue="join-meet"
-        className="flex w-3/6 flex-col bg-white rounded-xl"
+        className="flex w-3/6 flex-col bg-white rounded-xl shadow-sm"
       >
         <Tabs.List
           aria-label="Join an existing meet or create one"
