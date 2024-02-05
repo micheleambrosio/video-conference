@@ -52,7 +52,7 @@ export default function NewMeetForm({ type }: Props) {
         </Form.Field>
       )}
       <Form.Submit asChild>
-        <button className="w-full p-2 bg-purple-700 hover:bg-purple-500 rounded-xl text-white focus:shadow-[0_0_0_2px_black] outline-none">
+        <button className="w-full p-2 bg-gray-950 hover:bg-gray-700 rounded-xl text-white focus:shadow-[0_0_0_2px_black] outline-none">
           {type === "create-meet" ? "Create Meet" : "Join Meet"}
         </button>
       </Form.Submit>
