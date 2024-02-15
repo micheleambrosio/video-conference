@@ -25,7 +25,7 @@ export default function NewMeetForm({ type }: Props) {
           <input
             type="text"
             required
-            className="w-full shadow-gray-300 h-[35px] rounded-[4px] px-[10px] text-[15px] leading-none text-gray-800 shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_purple] focus:shadow-[0_0_0_2px_black]"
+            className="w-full shadow-gray-300 h-[35px] rounded-[4px] px-[10px] text-[15px] leading-none text-gray-800 shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
           />
         </Form.Control>
       </Form.Field>
@@ -46,7 +46,7 @@ export default function NewMeetForm({ type }: Props) {
             <input
               type="text"
               required
-              className="w-full shadow-gray-300 h-[35px] rounded-[4px] px-[10px] text-[15px] leading-none text-gray-800 shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_purple] focus:shadow-[0_0_0_2px_black]"
+              className="w-full shadow-gray-300 h-[35px] rounded-[4px] px-[10px] text-[15px] leading-none text-gray-800 shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             />
           </Form.Control>
         </Form.Field>
