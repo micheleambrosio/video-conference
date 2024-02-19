@@ -3,7 +3,7 @@
 import * as Tabs from "@radix-ui/react-tabs";
 import MeetForm from "./MeetForm";
 
-export default function MeetingFormTabs() {
+const MeetingFormTabs: React.FC = () => {
   return (
     <section className="w-full h-full flex flex-col justify-center items-center">
       <h1 className="text-4xl mb-5 font-bold text-gray-800 lowercase">
@@ -40,4 +40,6 @@ export default function MeetingFormTabs() {
       </Tabs.Root>
     </section>
   );
-}
+};
+
+export default MeetingFormTabs;

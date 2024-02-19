@@ -1,4 +1,5 @@
-import MeetHeader from "@/components/MeetHeader";
+import MeetHeader from "@Components/MeetHeader";
+import CallControls from "@Components/CallControls";
 
 export default function Meet() {
   return (
@@ -15,7 +16,7 @@ export default function Meet() {
         </section>
         <section className="bg-white p-5 rounded-3xl">Área do chat</section>
         <aside className="bg-white col-span-4 p-5 rounded-full">
-          Área controle dos botões
+          <CallControls />
         </aside>
       </main>
     </>

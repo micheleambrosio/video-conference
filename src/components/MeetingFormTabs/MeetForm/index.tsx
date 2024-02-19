@@ -6,7 +6,7 @@ interface Props {
   type: "create-meet" | "join-meet";
 }
 
-export default function NewMeetForm({ type }: Props) {
+const NewMeetForm: React.FC<Props> = ({ type }) => {
   return (
     <Form.Root className="flex flex-col gap-5">
       <Form.Field name="name">
@@ -58,4 +58,6 @@ export default function NewMeetForm({ type }: Props) {
       </Form.Submit>
     </Form.Root>
   );
-}
+};
+
+export default NewMeetForm;

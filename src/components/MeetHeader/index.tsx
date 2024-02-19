@@ -5,7 +5,7 @@ interface Props {
   ownerName: string;
 }
 
-export default function MeetHeader({ title, ownerName }: Props) {
+const MeetHeader: React.FC<Props> = ({ title, ownerName }) => {
   return (
     <header className="bg-white p-5 rounded-full flex gap-6 items-center">
       <button className="bg-gray-100 size-20 rounded-full flex justify-center items-center">
@@ -17,5 +17,7 @@ export default function MeetHeader({ title, ownerName }: Props) {
       </div>
     </header>
   );
-}
+};
+
+export default MeetHeader;
 
