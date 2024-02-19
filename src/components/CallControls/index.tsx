@@ -14,20 +14,28 @@ const CallControls: React.FC = () => {
       <IconButton
         icon={<FiMic />}
         disabledStatusIcon={<FiMicOff />}
-        onClick={() => console.log("Button was clicked")}
+        onClick={(isActive: boolean) =>
+          console.log(`Button was clicked: ${isActive}`)
+        }
       />
       <IconButton
         icon={<FiVideo />}
         disabledStatusIcon={<FiVideoOff />}
-        onClick={() => console.log("Button was clicked")}
+        onClick={(isActive: boolean) =>
+          console.log(`Button was clicked: ${isActive}`)
+        }
       />
       <IconButton
         icon={<FiMonitor />}
-        onClick={() => console.log("Button was clicked")}
+        onClick={(isActive: boolean) =>
+          console.log(`Button was clicked: ${isActive}`)
+        }
       />
       <IconButton
         icon={<FiPhoneOff />}
-        onClick={() => console.log("Button was clicked")}
+        onClick={(isActive: boolean) =>
+          console.log(`Button was clicked: ${isActive}`)
+        }
         isHighlightIcon
       />
     </div>

@@ -4,7 +4,7 @@ import { useState } from "react";
 
 interface Props {
   icon: React.ReactNode;
-  onClick: () => void;
+  onClick: (isActive: boolean) => void;
   disabledStatusIcon?: React.ReactNode;
   defaultValue?: boolean;
   isHighlightIcon?: boolean;
@@ -21,7 +21,7 @@ const IconButton: React.FC<Props> = ({
 
   const handleClick = () => {
     setIsActive((prevStatus) => !prevStatus);
-    onClick();
+    onClick(!isActive);
   };
 
   return (
